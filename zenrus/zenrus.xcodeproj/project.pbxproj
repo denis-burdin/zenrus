@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27314501E2D63FA00CDCB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A273144F1E2D63FA00CDCB79 /* main.m */; };
+		A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314521E2D63FA00CDCB79 /* AppDelegate.m */; };
+		A27314561E2D63FA00CDCB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314551E2D63FA00CDCB79 /* ViewController.m */; };
+		A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27314571E2D63FA00CDCB79 /* Main.storyboard */; };
+		A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */; };
+		A273145E1E2D63FA00CDCB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273145D1E2D63FA00CDCB79 /* Assets.xcassets */; };
+		A27314611E2D63FA00CDCB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A273145F1E2D63FA00CDCB79 /* LaunchScreen.storyboard */; };
+		A273146C1E2D63FA00CDCB79 /* zenrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A273146B1E2D63FA00CDCB79 /* zenrusTests.m */; };
+		A27314771E2D63FA00CDCB79 /* zenrusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314761E2D63FA00CDCB79 /* zenrusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27314681E2D63FA00CDCB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27314431E2D63F900CDCB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A273144A1E2D63F900CDCB79;
+			remoteInfo = zenrus;
+		};
+		A27314731E2D63FA00CDCB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27314431E2D63F900CDCB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A273144A1E2D63F900CDCB79;
+			remoteInfo = zenrus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A273144B1E2D63FA00CDCB79 /* zenrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A273144F1E2D63FA00CDCB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A27314511E2D63FA00CDCB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A27314521E2D63FA00CDCB79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A27314541E2D63FA00CDCB79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A27314551E2D63FA00CDCB79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A27314581E2D63FA00CDCB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A273145B1E2D63FA00CDCB79 /* zenrus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zenrus.xcdatamodel; sourceTree = "<group>"; };
+		A273145D1E2D63FA00CDCB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27314601E2D63FA00CDCB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27314621E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27314671E2D63FA00CDCB79 /* zenrusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenrusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A273146B1E2D63FA00CDCB79 /* zenrusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusTests.m; sourceTree = "<group>"; };
+		A273146D1E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27314721E2D63FA00CDCB79 /* zenrusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenrusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27314761E2D63FA00CDCB79 /* zenrusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusUITests.m; sourceTree = "<group>"; };
+		A27314781E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27314481E2D63F900CDCB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27314641E2D63FA00CDCB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A273146F1E2D63FA00CDCB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27314421E2D63F900CDCB79 = {
+			isa = PBXGroup;
+			children = (
+				A273144D1E2D63FA00CDCB79 /* zenrus */,
+				A273146A1E2D63FA00CDCB79 /* zenrusTests */,
+				A27314751E2D63FA00CDCB79 /* zenrusUITests */,
+				A273144C1E2D63FA00CDCB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A273144C1E2D63FA00CDCB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A273144B1E2D63FA00CDCB79 /* zenrus.app */,
+				A27314671E2D63FA00CDCB79 /* zenrusTests.xctest */,
+				A27314721E2D63FA00CDCB79 /* zenrusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A273144D1E2D63FA00CDCB79 /* zenrus */ = {
+			isa = PBXGroup;
+			children = (
+				A27314511E2D63FA00CDCB79 /* AppDelegate.h */,
+				A27314521E2D63FA00CDCB79 /* AppDelegate.m */,
+				A27314541E2D63FA00CDCB79 /* ViewController.h */,
+				A27314551E2D63FA00CDCB79 /* ViewController.m */,
+				A27314571E2D63FA00CDCB79 /* Main.storyboard */,
+				A273145D1E2D63FA00CDCB79 /* Assets.xcassets */,
+				A273145F1E2D63FA00CDCB79 /* LaunchScreen.storyboard */,
+				A27314621E2D63FA00CDCB79 /* Info.plist */,
+				A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */,
+				A273144E1E2D63FA00CDCB79 /* Supporting Files */,
+			);
+			path = zenrus;
+			sourceTree = "<group>";
+		};
+		A273144E1E2D63FA00CDCB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A273144F1E2D63FA00CDCB79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A273146A1E2D63FA00CDCB79 /* zenrusTests */ = {
+			isa = PBXGroup;
+			children = (
+				A273146B1E2D63FA00CDCB79 /* zenrusTests.m */,
+				A273146D1E2D63FA00CDCB79 /* Info.plist */,
+			);
+			path = zenrusTests;
+			sourceTree = "<group>";
+		};
+		A27314751E2D63FA00CDCB79 /* zenrusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27314761E2D63FA00CDCB79 /* zenrusUITests.m */,
+				A27314781E2D63FA00CDCB79 /* Info.plist */,
+			);
+			path = zenrusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A273144A1E2D63F900CDCB79 /* zenrus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A273147B1E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrus" */;
+			buildPhases = (
+				A27314471E2D63F900CDCB79 /* Sources */,
+				A27314481E2D63F900CDCB79 /* Frameworks */,
+				A27314491E2D63F900CDCB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenrus;
+			productName = zenrus;
+			productReference = A273144B1E2D63FA00CDCB79 /* zenrus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27314661E2D63FA00CDCB79 /* zenrusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A273147E1E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrusTests" */;
+			buildPhases = (
+				A27314631E2D63FA00CDCB79 /* Sources */,
+				A27314641E2D63FA00CDCB79 /* Frameworks */,
+				A27314651E2D63FA00CDCB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27314691E2D63FA00CDCB79 /* PBXTargetDependency */,
+			);
+			name = zenrusTests;
+			productName = zenrusTests;
+			productReference = A27314671E2D63FA00CDCB79 /* zenrusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27314711E2D63FA00CDCB79 /* zenrusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27314811E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrusUITests" */;
+			buildPhases = (
+				A273146E1E2D63FA00CDCB79 /* Sources */,
+				A273146F1E2D63FA00CDCB79 /* Frameworks */,
+				A27314701E2D63FA00CDCB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27314741E2D63FA00CDCB79 /* PBXTargetDependency */,
+			);
+			name = zenrusUITests;
+			productName = zenrusUITests;
+			productReference = A27314721E2D63FA00CDCB79 /* zenrusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27314431E2D63F900CDCB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dennis Burdin";
+				TargetAttributes = {
+					A273144A1E2D63F900CDCB79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A27314661E2D63FA00CDCB79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A273144A1E2D63F900CDCB79;
+					};
+					A27314711E2D63FA00CDCB79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A273144A1E2D63F900CDCB79;
+					};
+				};
+			};
+			buildConfigurationList = A27314461E2D63F900CDCB79 /* Build configuration list for PBXProject "zenrus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27314421E2D63F900CDCB79;
+			productRefGroup = A273144C1E2D63FA00CDCB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A273144A1E2D63F900CDCB79 /* zenrus */,
+				A27314661E2D63FA00CDCB79 /* zenrusTests */,
+				A27314711E2D63FA00CDCB79 /* zenrusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27314491E2D63F900CDCB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27314611E2D63FA00CDCB79 /* LaunchScreen.storyboard in Resources */,
+				A273145E1E2D63FA00CDCB79 /* Assets.xcassets in Resources */,
+				A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27314651E2D63FA00CDCB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27314701E2D63FA00CDCB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27314471E2D63F900CDCB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27314561E2D63FA00CDCB79 /* ViewController.m in Sources */,
+				A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */,
+				A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */,
+				A27314501E2D63FA00CDCB79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27314631E2D63FA00CDCB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A273146C1E2D63FA00CDCB79 /* zenrusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A273146E1E2D63FA00CDCB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27314771E2D63FA00CDCB79 /* zenrusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27314691E2D63FA00CDCB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A273144A1E2D63F900CDCB79 /* zenrus */;
+			targetProxy = A27314681E2D63FA00CDCB79 /* PBXContainerItemProxy */;
+		};
+		A27314741E2D63FA00CDCB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A273144A1E2D63F900CDCB79 /* zenrus */;
+			targetProxy = A27314731E2D63FA00CDCB79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27314571E2D63FA00CDCB79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27314581E2D63FA00CDCB79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A273145F1E2D63FA00CDCB79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27314601E2D63FA00CDCB79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27314791E2D63FA00CDCB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A273147A1E2D63FA00CDCB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A273147C1E2D63FA00CDCB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zenrus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A273147D1E2D63FA00CDCB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zenrus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A273147F1E2D63FA00CDCB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zenrusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenrus.app/zenrus";
+			};
+			name = Debug;
+		};
+		A27314801E2D63FA00CDCB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zenrusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenrus.app/zenrus";
+			};
+			name = Release;
+		};
+		A27314821E2D63FA00CDCB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zenrusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zenrus;
+			};
+			name = Debug;
+		};
+		A27314831E2D63FA00CDCB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zenrusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zenrus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27314461E2D63F900CDCB79 /* Build configuration list for PBXProject "zenrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27314791E2D63FA00CDCB79 /* Debug */,
+				A273147A1E2D63FA00CDCB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A273147B1E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A273147C1E2D63FA00CDCB79 /* Debug */,
+				A273147D1E2D63FA00CDCB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A273147E1E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A273147F1E2D63FA00CDCB79 /* Debug */,
+				A27314801E2D63FA00CDCB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A27314811E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27314821E2D63FA00CDCB79 /* Debug */,
+				A27314831E2D63FA00CDCB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A273145B1E2D63FA00CDCB79 /* zenrus.xcdatamodel */,
+			);
+			currentVersion = A273145B1E2D63FA00CDCB79 /* zenrus.xcdatamodel */;
+			path = zenrus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A27314431E2D63F900CDCB79 /* Project object */;
+}
