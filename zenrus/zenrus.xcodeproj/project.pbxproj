@@ -15,6 +15,7 @@
 		A273146C1E2D63FA00CDCB79 /* zenrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A273146B1E2D63FA00CDCB79 /* zenrusTests.m */; };
 		A27314771E2D63FA00CDCB79 /* zenrusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314761E2D63FA00CDCB79 /* zenrusUITests.m */; };
 		A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273148F1E2D731E00CDCB79 /* Assets.xcassets */; };
+		C171CA5474F254E126EC3628 /* libPods-zenrus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846D274291B14E62DDFC1159 /* libPods-zenrus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846D274291B14E62DDFC1159 /* libPods-zenrus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenrus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68A5ADDD3A96F28DA69D62 /* Pods-zenrus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenrus.release.xcconfig"; path = "Pods/Target Support Files/Pods-zenrus/Pods-zenrus.release.xcconfig"; sourceTree = "<group>"; };
 		A273144B1E2D63FA00CDCB79 /* zenrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273144F1E2D63FA00CDCB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27314511E2D63FA00CDCB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		A27314761E2D63FA00CDCB79 /* zenrusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusUITests.m; sourceTree = "<group>"; };
 		A27314781E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A273148F1E2D731E00CDCB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B149EF88B761CD81E5836A /* Pods-zenrus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenrus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zenrus/Pods-zenrus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C171CA5474F254E126EC3628 /* libPods-zenrus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19352CF5A1FB38A80B08E1A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846D274291B14E62DDFC1159 /* libPods-zenrus.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91C5C3FA32F271101955C015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B149EF88B761CD81E5836A /* Pods-zenrus.debug.xcconfig */,
+				8F68A5ADDD3A96F28DA69D62 /* Pods-zenrus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A27314421E2D63F900CDCB79 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				A273146A1E2D63FA00CDCB79 /* zenrusTests */,
 				A27314751E2D63FA00CDCB79 /* zenrusUITests */,
 				A273144C1E2D63FA00CDCB79 /* Products */,
+				91C5C3FA32F271101955C015 /* Pods */,
+				19352CF5A1FB38A80B08E1A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A273147B1E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrus" */;
 			buildPhases = (
+				DB42775EFC2369A780E80AA8 /* [CP] Check Pods Manifest.lock */,
 				A27314471E2D63F900CDCB79 /* Sources */,
 				A27314481E2D63F900CDCB79 /* Frameworks */,
 				A27314491E2D63F900CDCB79 /* Resources */,
+				530198DDAEFC5DFDC1A1AEEA /* [CP] Embed Pods Frameworks */,
+				F5ABA03BB456B794F48DDFCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +266,7 @@
 				TargetAttributes = {
 					A273144A1E2D63F900CDCB79 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9U3WVKD9E4;
 						ProvisioningStyle = Automatic;
 					};
 					A27314661E2D63FA00CDCB79 = {
@@ -298,6 +326,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		530198DDAEFC5DFDC1A1AEEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zenrus/Pods-zenrus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB42775EFC2369A780E80AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5ABA03BB456B794F48DDFCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zenrus/Pods-zenrus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A27314471E2D63F900CDCB79 /* Sources */ = {
@@ -446,9 +522,11 @@
 		};
 		A273147C1E2D63FA00CDCB79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B149EF88B761CD81E5836A /* Pods-zenrus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 9U3WVKD9E4;
 				INFOPLIST_FILE = zenrus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -459,9 +537,11 @@
 		};
 		A273147D1E2D63FA00CDCB79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F68A5ADDD3A96F28DA69D62 /* Pods-zenrus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 9U3WVKD9E4;
 				INFOPLIST_FILE = zenrus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
