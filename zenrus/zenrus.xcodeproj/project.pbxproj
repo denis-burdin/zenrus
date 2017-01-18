@@ -12,10 +12,9 @@
 		A27314561E2D63FA00CDCB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314551E2D63FA00CDCB79 /* ViewController.m */; };
 		A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27314571E2D63FA00CDCB79 /* Main.storyboard */; };
 		A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */; };
-		A273145E1E2D63FA00CDCB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273145D1E2D63FA00CDCB79 /* Assets.xcassets */; };
-		A27314611E2D63FA00CDCB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A273145F1E2D63FA00CDCB79 /* LaunchScreen.storyboard */; };
 		A273146C1E2D63FA00CDCB79 /* zenrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A273146B1E2D63FA00CDCB79 /* zenrusTests.m */; };
 		A27314771E2D63FA00CDCB79 /* zenrusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314761E2D63FA00CDCB79 /* zenrusUITests.m */; };
+		A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273148F1E2D731E00CDCB79 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 		A27314551E2D63FA00CDCB79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A27314581E2D63FA00CDCB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A273145B1E2D63FA00CDCB79 /* zenrus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zenrus.xcdatamodel; sourceTree = "<group>"; };
-		A273145D1E2D63FA00CDCB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A27314601E2D63FA00CDCB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27314621E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27314671E2D63FA00CDCB79 /* zenrusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenrusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273146B1E2D63FA00CDCB79 /* zenrusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusTests.m; sourceTree = "<group>"; };
@@ -53,6 +50,7 @@
 		A27314721E2D63FA00CDCB79 /* zenrusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenrusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27314761E2D63FA00CDCB79 /* zenrusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusUITests.m; sourceTree = "<group>"; };
 		A27314781E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A273148F1E2D731E00CDCB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +101,15 @@
 		A273144D1E2D63FA00CDCB79 /* zenrus */ = {
 			isa = PBXGroup;
 			children = (
+				A27314851E2D666700CDCB79 /* Model */,
+				A27314861E2D667200CDCB79 /* Views */,
+				A27314871E2D667A00CDCB79 /* Controllers */,
+				A27314891E2D674000CDCB79 /* Resources */,
 				A27314511E2D63FA00CDCB79 /* AppDelegate.h */,
 				A27314521E2D63FA00CDCB79 /* AppDelegate.m */,
 				A27314541E2D63FA00CDCB79 /* ViewController.h */,
 				A27314551E2D63FA00CDCB79 /* ViewController.m */,
 				A27314571E2D63FA00CDCB79 /* Main.storyboard */,
-				A273145D1E2D63FA00CDCB79 /* Assets.xcassets */,
-				A273145F1E2D63FA00CDCB79 /* LaunchScreen.storyboard */,
 				A27314621E2D63FA00CDCB79 /* Info.plist */,
 				A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */,
 				A273144E1E2D63FA00CDCB79 /* Supporting Files */,
@@ -141,6 +141,35 @@
 				A27314781E2D63FA00CDCB79 /* Info.plist */,
 			);
 			path = zenrusUITests;
+			sourceTree = "<group>";
+		};
+		A27314851E2D666700CDCB79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A27314861E2D667200CDCB79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A27314871E2D667A00CDCB79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A27314891E2D674000CDCB79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A273148F1E2D731E00CDCB79 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27314611E2D63FA00CDCB79 /* LaunchScreen.storyboard in Resources */,
-				A273145E1E2D63FA00CDCB79 /* Assets.xcassets in Resources */,
+				A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */,
 				A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,14 +351,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A273145F1E2D63FA00CDCB79 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A27314601E2D63FA00CDCB79 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -374,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,7 +448,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = zenrus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,7 +461,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = zenrus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idamob.zenrus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +535,7 @@
 				A273147D1E2D63FA00CDCB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A273147E1E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrusTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +544,7 @@
 				A27314801E2D63FA00CDCB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27314811E2D63FA00CDCB79 /* Build configuration list for PBXNativeTarget "zenrusUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +553,7 @@
 				A27314831E2D63FA00CDCB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
