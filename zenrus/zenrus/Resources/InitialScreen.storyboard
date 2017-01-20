@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cxx-5t-1Hh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="eWN-ns-VUw">
+            <objects>
+                <navigationController storyboardIdentifier="firstNavigation" id="cxx-5t-1Hh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="t6O-ye-hP6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="a9D-sz-hDM" kind="relationship" relationship="rootViewController" id="K6U-eU-IEx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QTJ-P2-PLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826" y="289"/>
+        </scene>
+        <!--Initial View Controller-->
+        <scene sceneID="yn1-3y-3O5">
+            <objects>
+                <viewController id="a9D-sz-hDM" customClass="InitialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3kx-mc-OKl"/>
+                        <viewControllerLayoutGuide type="bottom" id="kDQ-Sa-P2K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G1s-2y-Xuy">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evr-63-OTI">
+                                <rect key="frame" x="53" y="383" width="109" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="UIK-bF-wLs"/>
+                                    <constraint firstAttribute="width" secondItem="Evr-63-OTI" secondAttribute="height" multiplier="109:93" id="cwG-GD-1CW"/>
+                                </constraints>
+                                <state key="normal" image="rates"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kDQ-Sa-P2K" firstAttribute="top" secondItem="Evr-63-OTI" secondAttribute="bottom" constant="127" id="CGD-s8-rkQ"/>
+                            <constraint firstItem="Evr-63-OTI" firstAttribute="leading" secondItem="G1s-2y-Xuy" secondAttribute="leadingMargin" constant="37" id="lsz-85-lQg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CuR-qu-vpe"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPM-Gg-wol" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="289.20539730134936"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rates" width="304" height="295"/>
+    </resources>
+</document>

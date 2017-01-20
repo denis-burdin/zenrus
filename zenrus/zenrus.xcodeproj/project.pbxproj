@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		A27314501E2D63FA00CDCB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A273144F1E2D63FA00CDCB79 /* main.m */; };
 		A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314521E2D63FA00CDCB79 /* AppDelegate.m */; };
-		A27314561E2D63FA00CDCB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314551E2D63FA00CDCB79 /* ViewController.m */; };
 		A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27314571E2D63FA00CDCB79 /* Main.storyboard */; };
 		A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */; };
 		A273146C1E2D63FA00CDCB79 /* zenrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A273146B1E2D63FA00CDCB79 /* zenrusTests.m */; };
 		A27314771E2D63FA00CDCB79 /* zenrusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314761E2D63FA00CDCB79 /* zenrusUITests.m */; };
 		A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273148F1E2D731E00CDCB79 /* Assets.xcassets */; };
+		A2FADF3B1E2FB14A00DE8216 /* UIStoryboard+Instant.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */; };
+		A2FADF3E1E2FB66700DE8216 /* InitialScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FADF3D1E2FB66700DE8216 /* InitialScreen.storyboard */; };
+		A2FADF411E2FB7E500DE8216 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADF401E2FB7E500DE8216 /* InitialViewController.m */; };
 		C171CA5474F254E126EC3628 /* libPods-zenrus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846D274291B14E62DDFC1159 /* libPods-zenrus.a */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +44,6 @@
 		A273144F1E2D63FA00CDCB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27314511E2D63FA00CDCB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A27314521E2D63FA00CDCB79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A27314541E2D63FA00CDCB79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A27314551E2D63FA00CDCB79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A27314581E2D63FA00CDCB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A273145B1E2D63FA00CDCB79 /* zenrus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zenrus.xcdatamodel; sourceTree = "<group>"; };
 		A27314621E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +54,11 @@
 		A27314761E2D63FA00CDCB79 /* zenrusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusUITests.m; sourceTree = "<group>"; };
 		A27314781E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A273148F1E2D731E00CDCB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FADF391E2FB14A00DE8216 /* UIStoryboard+Instant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Instant.h"; sourceTree = "<group>"; };
+		A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Instant.m"; sourceTree = "<group>"; };
+		A2FADF3D1E2FB66700DE8216 /* InitialScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialScreen.storyboard; sourceTree = "<group>"; };
+		A2FADF3F1E2FB7E500DE8216 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		A2FADF401E2FB7E500DE8216 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		A4B149EF88B761CD81E5836A /* Pods-zenrus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenrus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zenrus/Pods-zenrus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,12 +134,6 @@
 				A27314861E2D667200CDCB79 /* Views */,
 				A27314871E2D667A00CDCB79 /* Controllers */,
 				A27314891E2D674000CDCB79 /* Resources */,
-				A27314511E2D63FA00CDCB79 /* AppDelegate.h */,
-				A27314521E2D63FA00CDCB79 /* AppDelegate.m */,
-				A27314541E2D63FA00CDCB79 /* ViewController.h */,
-				A27314551E2D63FA00CDCB79 /* ViewController.m */,
-				A27314571E2D63FA00CDCB79 /* Main.storyboard */,
-				A27314621E2D63FA00CDCB79 /* Info.plist */,
 				A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */,
 				A273144E1E2D63FA00CDCB79 /* Supporting Files */,
 			);
@@ -144,6 +143,10 @@
 		A273144E1E2D63FA00CDCB79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A27314511E2D63FA00CDCB79 /* AppDelegate.h */,
+				A27314521E2D63FA00CDCB79 /* AppDelegate.m */,
+				A27314571E2D63FA00CDCB79 /* Main.storyboard */,
+				A27314621E2D63FA00CDCB79 /* Info.plist */,
 				A273144F1E2D63FA00CDCB79 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -184,6 +187,8 @@
 		A27314871E2D667A00CDCB79 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A2FADF3F1E2FB7E500DE8216 /* InitialViewController.h */,
+				A2FADF401E2FB7E500DE8216 /* InitialViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -191,7 +196,10 @@
 		A27314891E2D674000CDCB79 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A2FADF391E2FB14A00DE8216 /* UIStoryboard+Instant.h */,
+				A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */,
 				A273148F1E2D731E00CDCB79 /* Assets.xcassets */,
+				A2FADF3D1E2FB66700DE8216 /* InitialScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -306,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FADF3E1E2FB66700DE8216 /* InitialScreen.storyboard in Resources */,
 				A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */,
 				A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */,
 			);
@@ -380,10 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27314561E2D63FA00CDCB79 /* ViewController.m in Sources */,
+				A2FADF411E2FB7E500DE8216 /* InitialViewController.m in Sources */,
 				A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */,
 				A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */,
 				A27314501E2D63FA00CDCB79 /* main.m in Sources */,
+				A2FADF3B1E2FB14A00DE8216 /* UIStoryboard+Instant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
