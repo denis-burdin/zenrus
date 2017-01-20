@@ -40,6 +40,10 @@
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="firstScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="s4X-St-fVe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evr-63-OTI">
                                 <rect key="frame" x="53" y="383" width="109" height="93"/>
                                 <constraints>
@@ -47,6 +51,9 @@
                                     <constraint firstAttribute="width" secondItem="Evr-63-OTI" secondAttribute="height" multiplier="109:93" id="cwG-GD-1CW"/>
                                 </constraints>
                                 <state key="normal" image="rates"/>
+                                <connections>
+                                    <segue destination="8gp-FA-QmZ" kind="show" id="QPv-6k-mSr"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -62,8 +69,33 @@
             </objects>
             <point key="canvasLocation" x="1580" y="289.20539730134936"/>
         </scene>
+        <!--Exchange Rates View Controller-->
+        <scene sceneID="WyU-KJ-4qh">
+            <objects>
+                <viewController id="8gp-FA-QmZ" customClass="ExchangeRatesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Al-2d-G72"/>
+                        <viewControllerLayoutGuide type="bottom" id="mYD-ro-Ntz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zqb-EE-2Wd">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="firstScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="x81-Hz-AiE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXN-nS-uFJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2280.8000000000002" y="287.40629685157421"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="firstScreenBackground" width="375" height="667"/>
         <image name="rates" width="304" height="295"/>
     </resources>
 </document>

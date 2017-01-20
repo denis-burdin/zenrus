@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23DE4C01E32177C00834329 /* ExchangeRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DE4BF1E32177C00834329 /* ExchangeRatesViewController.m */; };
 		A27314501E2D63FA00CDCB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A273144F1E2D63FA00CDCB79 /* main.m */; };
 		A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314521E2D63FA00CDCB79 /* AppDelegate.m */; };
 		A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27314571E2D63FA00CDCB79 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		846D274291B14E62DDFC1159 /* libPods-zenrus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenrus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F68A5ADDD3A96F28DA69D62 /* Pods-zenrus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenrus.release.xcconfig"; path = "Pods/Target Support Files/Pods-zenrus/Pods-zenrus.release.xcconfig"; sourceTree = "<group>"; };
+		A23DE4BE1E32177C00834329 /* ExchangeRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRatesViewController.h; sourceTree = "<group>"; };
+		A23DE4BF1E32177C00834329 /* ExchangeRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRatesViewController.m; sourceTree = "<group>"; };
 		A273144B1E2D63FA00CDCB79 /* zenrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273144F1E2D63FA00CDCB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27314511E2D63FA00CDCB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 			children = (
 				A2FADF3F1E2FB7E500DE8216 /* InitialViewController.h */,
 				A2FADF401E2FB7E500DE8216 /* InitialViewController.m */,
+				A23DE4BE1E32177C00834329 /* ExchangeRatesViewController.h */,
+				A23DE4BF1E32177C00834329 /* ExchangeRatesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FADF411E2FB7E500DE8216 /* InitialViewController.m in Sources */,
+				A23DE4C01E32177C00834329 /* ExchangeRatesViewController.m in Sources */,
 				A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */,
 				A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */,
 				A27314501E2D63FA00CDCB79 /* main.m in Sources */,

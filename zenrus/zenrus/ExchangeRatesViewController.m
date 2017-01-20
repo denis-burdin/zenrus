@@ -1,26 +1,25 @@
 //
-//  InitialViewController.m
+//  ExchangeRatesViewController.m
 //  zenrus
 //
-//  Created by Dennis Burdin on 18.01.17.
+//  Created by Dennis Burdin on 20.01.17.
 //  Copyright © 2017 Dennis Burdin. All rights reserved.
 //
 
-#import "InitialViewController.h"
-#import "UIStoryboard+Instant.h"
+#import "ExchangeRatesViewController.h"
 
-@interface InitialViewController ()
+@interface ExchangeRatesViewController ()
 
 @end
 
-@implementation InitialViewController
+@implementation ExchangeRatesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
-- (void)viewWillAppear:(BOOL)animated {
+-(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self configurateUI];
 }
@@ -32,12 +31,12 @@
 
 -(void)configurateUI {
     [self setNeedsStatusBarAppearanceUpdate];
-    [self.navigationController.navigationBar setHidden:YES];
-    [self.navigationItem setHidesBackButton:YES animated:NO];
-}
-
--(UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+    [self.navigationController.navigationBar setHidden:NO];
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+    self.navigationController.navigationBar.translucent = NO;
+    self.navigationItem.title = @"Центробанк";
+    self.navigationController.navigationBar.topItem.title = @"";
+    [self.navigationItem setHidesBackButton:NO animated:NO];
 }
 
 /*
