@@ -13,6 +13,11 @@
 static NSString *const kUSDollarID = @"R01235";
 static NSString *const kEuroID = @"R01239";
 
+// NSUserDefaults
+static NSString *const kUserDefaultsDateKey = @"LastRefreshedDateKey";
+static NSString *const kUserDefaultsValueUSKey = @"LastRefreshedUSValueKey";
+static NSString *const kUserDefaultsValueEuroKey = @"LastRefreshedEuroValueKey";
+
 @interface WebServiceWrapper ()
 {
     NSURL *_urlService;
@@ -54,8 +59,24 @@ static NSString *const kEuroID = @"R01239";
     NSString *USDollarValue = [valutes objectForKey:kUSDollarID];
     NSString *EuroValue = [valutes objectForKey:kEuroID];
     
+    [self saveToDB:date dollar:USDollarValue euro:EuroValue]; // TODO: USE CORE DATA INSTEAD OF THAT!
     
     return @[date, USDollarValue, EuroValue]; // CurrencyIndex
+}
+
+- (void)saveToDB:date dollar:USDollarValue euro:EuroValue {
+    // in fact this function is redundant because of Safari saves xml responce internally in web history and returns it when internet is not available
+    [USER_DEFAULTS setObject:date forKey:kUserDefaultsDateKey];
+    [USER_DEFAULTS setObject:USDollarValue forKey:kUserDefaultsValueUSKey];
+    [USER_DEFAULTS setObject:EuroValue forKey:kUserDefaultsValueEuroKey];
+    [USER_DEFAULTS synchronize];
+}
+
+- (NSArray*)readFromDB {
+    NSString* date = [USER_DEFAULTS stringForKey:kUserDefaultsDateKey];
+    NSString* valueUS = [USER_DEFAULTS stringForKey:kUserDefaultsValueUSKey];
+    NSString* valueEuro = [USER_DEFAULTS stringForKey:kUserDefaultsValueEuroKey];
+    return @[date, valueUS, valueEuro];
 }
 
 - (NSDictionary*)groomValutes:(NSArray*)valutes {
@@ -63,19 +84,25 @@ static NSString *const kEuroID = @"R01239";
     for (NSDictionary *valute in valutes) {
         [dict setValue:valute[@"Value"] forKey:valute[@"_ID"]];
     }
-    
+
     return dict;
 }
 
 - (void)run:(void (^)(NSArray* result))completion {
     [self downloadXML:^(NSString *xmlString, NSError *error) {
+        NSArray* result = nil;
+        
         if (xmlString.length) {
             NSDictionary *rates = [[XMLDictionaryParser sharedInstance] dictionaryWithString:xmlString];
             NSString* date = [rates objectForKey:@"_Date"];
             NSDictionary* valutes = [self groomValutes:[rates objectForKey:@"Valute"]];
-            NSArray* result = [self replicateDataToDB:date andValutes:valutes]; // TODO: investigate why deep link doesn't work
-            completion(result);
+            result = [self replicateDataToDB:date andValutes:valutes]; // TODO: investigate why deep link doesn't work
+        } else {
+            // error, try to read previously saved values
+            result = [self readFromDB];
         }
+        
+        completion(result);
     }];
 }
 
