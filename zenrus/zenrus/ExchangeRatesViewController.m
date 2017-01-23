@@ -7,6 +7,10 @@
 //
 
 #import "ExchangeRatesViewController.h"
+#import "WebServiceWrapper.h"
+
+static NSString *const kCBR = @"Центробанк";
+static NSString *const kWebServiceURL = @"http://www.cbr.ru/scripts/XML_daily.asp";
 
 @interface ExchangeRatesViewController ()
 
@@ -17,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    WebServiceWrapper *webService = [[WebServiceWrapper alloc] initWithURLString:kWebServiceURL];
+    [webService test];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -33,10 +39,9 @@
     [self setNeedsStatusBarAppearanceUpdate];
     [self.navigationController.navigationBar setHidden:NO];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-    self.navigationController.navigationBar.translucent = NO;
-    self.navigationItem.title = @"Центробанк";
     self.navigationController.navigationBar.topItem.title = @"";
     [self.navigationItem setHidesBackButton:NO animated:NO];
+    self.navigationItem.title = kCBR;
 }
 
 /*

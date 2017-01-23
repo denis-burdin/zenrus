@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A23DE4C01E32177C00834329 /* ExchangeRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DE4BF1E32177C00834329 /* ExchangeRatesViewController.m */; };
+		A25610391E351018007D4CD2 /* Constants.h in Resources */ = {isa = PBXBuildFile; fileRef = A25610351E34F4A6007D4CD2 /* Constants.h */; };
+		A256103C1E3513E4007D4CD2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A256103A1E3513E4007D4CD2 /* libsqlite3.0.tbd */; };
+		A256103D1E3513E4007D4CD2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A256103B1E3513E4007D4CD2 /* libsqlite3.tbd */; };
+		A25DF2B01E356DE600C9DF4B /* Rates+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DF2AD1E356DE600C9DF4B /* Rates+CoreDataClass.m */; };
+		A25DF2B11E356DE600C9DF4B /* Rates+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DF2AF1E356DE600C9DF4B /* Rates+CoreDataProperties.m */; };
+		A25DF2B31E358AB700C9DF4B /* valutes.db in Resources */ = {isa = PBXBuildFile; fileRef = A25DF2B21E358A5300C9DF4B /* valutes.db */; };
 		A27314501E2D63FA00CDCB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A273144F1E2D63FA00CDCB79 /* main.m */; };
 		A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314521E2D63FA00CDCB79 /* AppDelegate.m */; };
 		A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27314571E2D63FA00CDCB79 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 		A273146C1E2D63FA00CDCB79 /* zenrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A273146B1E2D63FA00CDCB79 /* zenrusTests.m */; };
 		A27314771E2D63FA00CDCB79 /* zenrusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314761E2D63FA00CDCB79 /* zenrusUITests.m */; };
 		A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273148F1E2D731E00CDCB79 /* Assets.xcassets */; };
+		A2D371261E3412900084316E /* BaseEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D371211E3412900084316E /* BaseEntityManager.m */; };
+		A2D371271E3412900084316E /* CoreDataDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D371231E3412900084316E /* CoreDataDatabase.m */; };
+		A2D371281E3412900084316E /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D371251E3412900084316E /* Database.m */; };
+		A2D371311E3412AC0084316E /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3712A1E3412AC0084316E /* DataManager.m */; };
+		A2D371331E3412AC0084316E /* RatesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3712E1E3412AC0084316E /* RatesManager.m */; };
+		A2E67E8E1E33665800588C06 /* WebServiceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E67E8D1E33665800588C06 /* WebServiceWrapper.m */; };
 		A2FADF3B1E2FB14A00DE8216 /* UIStoryboard+Instant.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */; };
 		A2FADF3E1E2FB66700DE8216 /* InitialScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FADF3D1E2FB66700DE8216 /* InitialScreen.storyboard */; };
 		A2FADF411E2FB7E500DE8216 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADF401E2FB7E500DE8216 /* InitialViewController.m */; };
@@ -43,6 +55,16 @@
 		8F68A5ADDD3A96F28DA69D62 /* Pods-zenrus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenrus.release.xcconfig"; path = "Pods/Target Support Files/Pods-zenrus/Pods-zenrus.release.xcconfig"; sourceTree = "<group>"; };
 		A23DE4BE1E32177C00834329 /* ExchangeRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRatesViewController.h; sourceTree = "<group>"; };
 		A23DE4BF1E32177C00834329 /* ExchangeRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRatesViewController.m; sourceTree = "<group>"; };
+		A25610351E34F4A6007D4CD2 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A25610361E34FAC8007D4CD2 /* zenrus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zenrus-Prefix.pch"; sourceTree = "<group>"; };
+		A256103A1E3513E4007D4CD2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A256103B1E3513E4007D4CD2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A25DF2AC1E356DE600C9DF4B /* Rates+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rates+CoreDataClass.h"; sourceTree = "<group>"; };
+		A25DF2AD1E356DE600C9DF4B /* Rates+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rates+CoreDataClass.m"; sourceTree = "<group>"; };
+		A25DF2AE1E356DE600C9DF4B /* Rates+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rates+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A25DF2AF1E356DE600C9DF4B /* Rates+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rates+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A25DF2B21E358A5300C9DF4B /* valutes.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = valutes.db; sourceTree = "<group>"; };
+		A25DF2B41E358E7400C9DF4B /* createSQLite3DBProgrammatically */ = {isa = PBXFileReference; lastKnownFileType = text; path = createSQLite3DBProgrammatically; sourceTree = "<group>"; };
 		A273144B1E2D63FA00CDCB79 /* zenrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273144F1E2D63FA00CDCB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27314511E2D63FA00CDCB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,8 +79,20 @@
 		A27314761E2D63FA00CDCB79 /* zenrusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrusUITests.m; sourceTree = "<group>"; };
 		A27314781E2D63FA00CDCB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A273148F1E2D731E00CDCB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2FADF391E2FB14A00DE8216 /* UIStoryboard+Instant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Instant.h"; sourceTree = "<group>"; };
-		A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Instant.m"; sourceTree = "<group>"; };
+		A2D371201E3412900084316E /* BaseEntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntityManager.h; sourceTree = "<group>"; };
+		A2D371211E3412900084316E /* BaseEntityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntityManager.m; sourceTree = "<group>"; };
+		A2D371221E3412900084316E /* CoreDataDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDatabase.h; sourceTree = "<group>"; };
+		A2D371231E3412900084316E /* CoreDataDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDatabase.m; sourceTree = "<group>"; };
+		A2D371241E3412900084316E /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		A2D371251E3412900084316E /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		A2D371291E3412AC0084316E /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A2D3712A1E3412AC0084316E /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		A2D3712D1E3412AC0084316E /* RatesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesManager.h; sourceTree = "<group>"; };
+		A2D3712E1E3412AC0084316E /* RatesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatesManager.m; sourceTree = "<group>"; };
+		A2E67E8C1E33665800588C06 /* WebServiceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceWrapper.h; sourceTree = "<group>"; };
+		A2E67E8D1E33665800588C06 /* WebServiceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceWrapper.m; sourceTree = "<group>"; };
+		A2FADF391E2FB14A00DE8216 /* UIStoryboard+Instant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Instant.h"; path = "Resources/UIStoryboard+Instant.h"; sourceTree = "<group>"; };
+		A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Instant.m"; path = "Resources/UIStoryboard+Instant.m"; sourceTree = "<group>"; };
 		A2FADF3D1E2FB66700DE8216 /* InitialScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialScreen.storyboard; sourceTree = "<group>"; };
 		A2FADF3F1E2FB7E500DE8216 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		A2FADF401E2FB7E500DE8216 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
@@ -70,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A256103C1E3513E4007D4CD2 /* libsqlite3.0.tbd in Frameworks */,
+				A256103D1E3513E4007D4CD2 /* libsqlite3.tbd in Frameworks */,
 				C171CA5474F254E126EC3628 /* libPods-zenrus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +130,8 @@
 		19352CF5A1FB38A80B08E1A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A256103A1E3513E4007D4CD2 /* libsqlite3.0.tbd */,
+				A256103B1E3513E4007D4CD2 /* libsqlite3.tbd */,
 				846D274291B14E62DDFC1159 /* libPods-zenrus.a */,
 			);
 			name = Frameworks;
@@ -136,8 +174,8 @@
 				A27314851E2D666700CDCB79 /* Model */,
 				A27314861E2D667200CDCB79 /* Views */,
 				A27314871E2D667A00CDCB79 /* Controllers */,
+				A2E67E8B1E33662100588C06 /* Core */,
 				A27314891E2D674000CDCB79 /* Resources */,
-				A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */,
 				A273144E1E2D63FA00CDCB79 /* Supporting Files */,
 			);
 			path = zenrus;
@@ -150,6 +188,7 @@
 				A27314521E2D63FA00CDCB79 /* AppDelegate.m */,
 				A27314571E2D63FA00CDCB79 /* Main.storyboard */,
 				A27314621E2D63FA00CDCB79 /* Info.plist */,
+				A25610361E34FAC8007D4CD2 /* zenrus-Prefix.pch */,
 				A273144F1E2D63FA00CDCB79 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -176,6 +215,9 @@
 		A27314851E2D666700CDCB79 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A2D370DA1E33FFF80084316E /* CoreData */,
+				A2D370DB1E3400140084316E /* Database */,
+				A2D370DC1E3400240084316E /* Managers */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -201,12 +243,60 @@
 		A27314891E2D674000CDCB79 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2FADF391E2FB14A00DE8216 /* UIStoryboard+Instant.h */,
-				A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */,
+				A25DF2B41E358E7400C9DF4B /* createSQLite3DBProgrammatically */,
+				A25DF2B21E358A5300C9DF4B /* valutes.db */,
 				A273148F1E2D731E00CDCB79 /* Assets.xcassets */,
 				A2FADF3D1E2FB66700DE8216 /* InitialScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2D370DA1E33FFF80084316E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A25DF2AC1E356DE600C9DF4B /* Rates+CoreDataClass.h */,
+				A25DF2AD1E356DE600C9DF4B /* Rates+CoreDataClass.m */,
+				A25DF2AE1E356DE600C9DF4B /* Rates+CoreDataProperties.h */,
+				A25DF2AF1E356DE600C9DF4B /* Rates+CoreDataProperties.m */,
+				A273145A1E2D63FA00CDCB79 /* zenrus.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		A2D370DB1E3400140084316E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A2D371201E3412900084316E /* BaseEntityManager.h */,
+				A2D371211E3412900084316E /* BaseEntityManager.m */,
+				A2D371221E3412900084316E /* CoreDataDatabase.h */,
+				A2D371231E3412900084316E /* CoreDataDatabase.m */,
+				A2D371241E3412900084316E /* Database.h */,
+				A2D371251E3412900084316E /* Database.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		A2D370DC1E3400240084316E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A2D371291E3412AC0084316E /* DataManager.h */,
+				A2D3712A1E3412AC0084316E /* DataManager.m */,
+				A2D3712D1E3412AC0084316E /* RatesManager.h */,
+				A2D3712E1E3412AC0084316E /* RatesManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		A2E67E8B1E33662100588C06 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A2FADF391E2FB14A00DE8216 /* UIStoryboard+Instant.h */,
+				A2FADF3A1E2FB14A00DE8216 /* UIStoryboard+Instant.m */,
+				A25610351E34F4A6007D4CD2 /* Constants.h */,
+				A2E67E8C1E33665800588C06 /* WebServiceWrapper.h */,
+				A2E67E8D1E33665800588C06 /* WebServiceWrapper.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +409,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25DF2B31E358AB700C9DF4B /* valutes.db in Resources */,
+				A25610391E351018007D4CD2 /* Constants.h in Resources */,
 				A2FADF3E1E2FB66700DE8216 /* InitialScreen.storyboard in Resources */,
 				A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */,
 				A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */,
@@ -394,11 +486,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E67E8E1E33665800588C06 /* WebServiceWrapper.m in Sources */,
+				A2D371311E3412AC0084316E /* DataManager.m in Sources */,
+				A25DF2B01E356DE600C9DF4B /* Rates+CoreDataClass.m in Sources */,
 				A2FADF411E2FB7E500DE8216 /* InitialViewController.m in Sources */,
+				A2D371281E3412900084316E /* Database.m in Sources */,
 				A23DE4C01E32177C00834329 /* ExchangeRatesViewController.m in Sources */,
+				A2D371261E3412900084316E /* BaseEntityManager.m in Sources */,
 				A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */,
 				A273145C1E2D63FA00CDCB79 /* zenrus.xcdatamodeld in Sources */,
+				A2D371331E3412AC0084316E /* RatesManager.m in Sources */,
+				A25DF2B11E356DE600C9DF4B /* Rates+CoreDataProperties.m in Sources */,
 				A27314501E2D63FA00CDCB79 /* main.m in Sources */,
+				A2D371271E3412900084316E /* CoreDataDatabase.m in Sources */,
 				A2FADF3B1E2FB14A00DE8216 /* UIStoryboard+Instant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,6 +643,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9U3WVKD9E4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zenrus/zenrus-Prefix.pch";
 				INFOPLIST_FILE = zenrus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -558,6 +660,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9U3WVKD9E4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zenrus/zenrus-Prefix.pch";
 				INFOPLIST_FILE = zenrus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

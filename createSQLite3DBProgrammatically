@@ -1,0 +1,30 @@
+#import <sqlite3.h>
+
+NSString *docsDir;
+NSArray *dirPaths;
+
+// Get the documents directory
+dirPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+docsDir = [dirPaths objectAtIndex:0];
+
+// Build the path to the database file
+NSString* databasePath = [[NSString alloc] initWithString: [docsDir stringByAppendingPathComponent: @"valutes.db"]];
+
+NSFileManager *filemgr = [NSFileManager defaultManager];
+
+if ([filemgr fileExistsAtPath: databasePath ] == NO) {
+    const char *dbpath = [databasePath UTF8String];
+    sqlite3 *contactDB;
+    if (sqlite3_open(dbpath, &contactDB) == SQLITE_OK) {
+        char *errMsg;
+        const char *sql_stmt = "CREATE TABLE IF NOT EXISTS Rates (date TEXT, value TEXT, value_id TEXT)";
+
+        if (sqlite3_exec(contactDB, sql_stmt, NULL, NULL, &errMsg) != SQLITE_OK) {
+            NSLog(@"Failed to create table");
+        }
+        sqlite3_close(contactDB);
+    }
+    else {
+        NSLog(@"Failed to open/create database");
+    }
+}
