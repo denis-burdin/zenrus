@@ -48,12 +48,14 @@ static NSString *const kEuroID = @"R01239";
     [task resume];
 }
 
-- (void)replicateDataToDB:(NSString*)date andValutes:(NSDictionary*)valutes {
+- (NSArray*)replicateDataToDB:(NSString*)date andValutes:(NSDictionary*)valutes {
     // TODO: investigate why [context executeFetchRequest] returns empty array
     //NSArray *ratesData = [RATES_MANAGER listRates];
     NSString *USDollarValue = [valutes objectForKey:kUSDollarID];
     NSString *EuroValue = [valutes objectForKey:kEuroID];
-    NSLog(@"");
+    
+    
+    return @[date, USDollarValue, EuroValue]; // CurrencyIndex
 }
 
 - (NSDictionary*)groomValutes:(NSArray*)valutes {
@@ -65,13 +67,14 @@ static NSString *const kEuroID = @"R01239";
     return dict;
 }
 
-- (void)test {
+- (void)run:(void (^)(NSArray* result))completion {
     [self downloadXML:^(NSString *xmlString, NSError *error) {
         if (xmlString.length) {
             NSDictionary *rates = [[XMLDictionaryParser sharedInstance] dictionaryWithString:xmlString];
             NSString* date = [rates objectForKey:@"_Date"];
             NSDictionary* valutes = [self groomValutes:[rates objectForKey:@"Valute"]];
-            [self replicateDataToDB:date andValutes:valutes]; // TODO: investigate why deep link doesn't work
+            NSArray* result = [self replicateDataToDB:date andValutes:valutes]; // TODO: investigate why deep link doesn't work
+            completion(result);
         }
     }];
 }

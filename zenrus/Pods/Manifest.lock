@@ -17,18 +17,21 @@ PODS:
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
+  - SVPullToRefresh (0.4.1)
   - XMLDictionary (1.4.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - MagicalRecord
+  - SVPullToRefresh
   - XMLDictionary
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
   XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
 
-PODFILE CHECKSUM: b21155cb3aa61bd9b38b0692104d82a37c6bc164
+PODFILE CHECKSUM: 45d73f389859a25f02bd10a8fca274628f627e53
 
 COCOAPODS: 1.1.1

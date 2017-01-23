@@ -14,6 +14,8 @@
 		A25DF2B01E356DE600C9DF4B /* Rates+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DF2AD1E356DE600C9DF4B /* Rates+CoreDataClass.m */; };
 		A25DF2B11E356DE600C9DF4B /* Rates+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DF2AF1E356DE600C9DF4B /* Rates+CoreDataProperties.m */; };
 		A25DF2B31E358AB700C9DF4B /* valutes.db in Resources */ = {isa = PBXBuildFile; fileRef = A25DF2B21E358A5300C9DF4B /* valutes.db */; };
+		A25DF2B81E35955200C9DF4B /* RatesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DF2B61E35955200C9DF4B /* RatesCell.m */; };
+		A25DF2B91E35955200C9DF4B /* RatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25DF2B71E35955200C9DF4B /* RatesCell.xib */; };
 		A27314501E2D63FA00CDCB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A273144F1E2D63FA00CDCB79 /* main.m */; };
 		A27314531E2D63FA00CDCB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27314521E2D63FA00CDCB79 /* AppDelegate.m */; };
 		A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27314571E2D63FA00CDCB79 /* Main.storyboard */; };
@@ -65,6 +67,9 @@
 		A25DF2AF1E356DE600C9DF4B /* Rates+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rates+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A25DF2B21E358A5300C9DF4B /* valutes.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = valutes.db; sourceTree = "<group>"; };
 		A25DF2B41E358E7400C9DF4B /* createSQLite3DBProgrammatically */ = {isa = PBXFileReference; lastKnownFileType = text; path = createSQLite3DBProgrammatically; sourceTree = "<group>"; };
+		A25DF2B51E35955200C9DF4B /* RatesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesCell.h; sourceTree = "<group>"; };
+		A25DF2B61E35955200C9DF4B /* RatesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatesCell.m; sourceTree = "<group>"; };
+		A25DF2B71E35955200C9DF4B /* RatesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatesCell.xib; sourceTree = "<group>"; };
 		A273144B1E2D63FA00CDCB79 /* zenrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273144F1E2D63FA00CDCB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27314511E2D63FA00CDCB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -225,6 +230,9 @@
 		A27314861E2D667200CDCB79 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A25DF2B51E35955200C9DF4B /* RatesCell.h */,
+				A25DF2B61E35955200C9DF4B /* RatesCell.m */,
+				A25DF2B71E35955200C9DF4B /* RatesCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -412,6 +420,7 @@
 				A25DF2B31E358AB700C9DF4B /* valutes.db in Resources */,
 				A25610391E351018007D4CD2 /* Constants.h in Resources */,
 				A2FADF3E1E2FB66700DE8216 /* InitialScreen.storyboard in Resources */,
+				A25DF2B91E35955200C9DF4B /* RatesCell.xib in Resources */,
 				A27314901E2D731E00CDCB79 /* Assets.xcassets in Resources */,
 				A27314591E2D63FA00CDCB79 /* Main.storyboard in Resources */,
 			);
@@ -499,6 +508,7 @@
 				A25DF2B11E356DE600C9DF4B /* Rates+CoreDataProperties.m in Sources */,
 				A27314501E2D63FA00CDCB79 /* main.m in Sources */,
 				A2D371271E3412900084316E /* CoreDataDatabase.m in Sources */,
+				A25DF2B81E35955200C9DF4B /* RatesCell.m in Sources */,
 				A2FADF3B1E2FB14A00DE8216 /* UIStoryboard+Instant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,9 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    CurrencyIndexDate = 0,
+    CurrencyIndexUSDollarValue,
+    CurrencyIndexEuroValue
+} CurrencyIndex;
+
 @interface WebServiceWrapper : NSObject
 
 - (instancetype)initWithURLString:(NSString*)url;
-- (void)test;
+- (void)run:(void (^)(NSArray* result))completion;
 
 @end
