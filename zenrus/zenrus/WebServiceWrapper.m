@@ -73,9 +73,9 @@ static NSString *const kUserDefaultsValueEuroKey = @"LastRefreshedEuroValueKey";
 }
 
 - (NSArray*)readFromDB {
-    NSString* date = [USER_DEFAULTS stringForKey:kUserDefaultsDateKey];
-    NSString* valueUS = [USER_DEFAULTS stringForKey:kUserDefaultsValueUSKey];
-    NSString* valueEuro = [USER_DEFAULTS stringForKey:kUserDefaultsValueEuroKey];
+    NSString* date = [USER_DEFAULTS stringForKey:kUserDefaultsDateKey] ?: @"";
+    NSString* valueUS = [USER_DEFAULTS stringForKey:kUserDefaultsValueUSKey] ?: @"";
+    NSString* valueEuro = [USER_DEFAULTS stringForKey:kUserDefaultsValueEuroKey] ?: @"";
     return @[date, valueUS, valueEuro];
 }
 
